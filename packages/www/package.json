@@ -1,0 +1,19 @@
+{
+  "name": "monorepo",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next -p 3004",
+    "now-build": "next build"
+  },
+  "dependencies": {
+    "@zeit-now-monorepo/common": "file:../common",
+    "@zeit-now-monorepo/shared": "file:../shared",
+    "isomorphic-unfetch": "3.0.0",
+    "next": "^8.0.0-canary.2",
+    "next-transpile-modules": "^2.3.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}

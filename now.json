@@ -1,19 +1,16 @@
 {
   "version": 2,
-  "scope": "indiejoseph",
-  "name": "zeit-now-monorepo",
+  "name": "monorepo",
   "builds": [
-    { "src": "packages/www-a/index.js", "use": "@now/node" },
-    { "src": "packages/www-b/index.js", "use": "@now/node" }
+    { "src": "/packages/www/package.json", "use": "@now/next" }
   ],
   "routes": [
     {
-      "src": "/b",
-      "dest": "packages/www-b/index.js"
-    },
-    {
       "src": "/(.*)",
-      "dest": "packages/www-a/index.js"
+      "dest": "/packages/www/$1",
+      "headers": {
+        "x-request-path": "$1"
+      }
     }
   ]
 }

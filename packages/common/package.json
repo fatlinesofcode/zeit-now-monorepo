@@ -1,11 +1,12 @@
 {
-  "name": "@zeit-now-monorepo/shared",
+  "name": "@zeit-now-monorepo/common",
   "version": "0.0.1",
   "main": "index.js",
   "author": "Joseph Cheng <indiejoseph@gmail.com>",
   "license": "MIT",
   "description": "Shared library",
   "dependencies": {
-    "classnames": "^2.2.6"
+    "classnames": "^2.2.6",
+    "@zeit-now-monorepo/shared": "file:../shared"
   }
 }

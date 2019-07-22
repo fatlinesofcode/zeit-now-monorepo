@@ -1,10 +1,12 @@
-import {Button} from "@zeit-now-monorepo/shared/Button";
-import {Header} from "@zeit-now-monorepo/common/Header";
+// import {Button} from "../../shared/Button";
+import {TestC} from "../../shared";
+import {Button} from "../../shared/Button";
 
 const Page = ({nows}) => <div className="container">
     <h1>HI</h1>
   <Button>Test</Button>
-  <Header></Header>
+  <TestC></TestC>
+  {/*<Header></Header>*/}
   </div>
 
 export default Page

@@ -8,8 +8,7 @@
     "now-build": "next build"
   },
   "dependencies": {
-    "@zeit-now-monorepo/common": "file:../common",
-    "@zeit-now-monorepo/shared": "file:../shared",
+    "classnames": "^2.2.6",
     "isomorphic-unfetch": "3.0.0",
     "next": "^8.0.0-canary.2",
     "next-transpile-modules": "^2.3.1",

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-import classNames from 'classnames'
+// import classNames from 'classnames'
 
 export class Button extends Component {
 
@@ -14,7 +14,7 @@ export class Button extends Component {
 
   render() {
     return (
-      <button className={classNames('test')}>
+      <button className={('test')}>
         {this.props.children}
       </button>
     )

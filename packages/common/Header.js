@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {Button} from "@zeit-now-monorepo/shared/Button";
 import classNames from 'classnames'
+import {Button} from "../shared/Button";
 
 export class Header extends Component {
 

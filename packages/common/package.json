@@ -6,7 +6,6 @@
   "license": "MIT",
   "description": "Shared library",
   "dependencies": {
-    "classnames": "^2.2.6",
-    "@zeit-now-monorepo/shared": "file:../shared"
+    "classnames": "^2.2.6"
   }
 }
